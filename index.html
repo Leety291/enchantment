@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>강화 시뮬레이터</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>아이템 강화</h1>
+        <div id="item-info">
+            <p>아이템: <span id="item-name"></span></p>
+            <p>등급: <span id="item-tier"></span></p>
+            <p>레벨: <span id="item-level"></span></p>
+        </div>
+        <div id="probability-info">
+            <p>성공 확률: <span id="success-chance"></span>%</p>
+            <p>실패(하락) 확률: <span id="fail-chance"></span>%</p>
+            <p>파괴 확률: <span id="destroy-chance"></span>%</p>
+        </div>
+        <button id="enhance-button">강화하기</button>
+        <div id="game-message"></div>
+        <div id="minigame-container">
+            <div id="target-zone"></div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
